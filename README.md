@@ -70,9 +70,9 @@ melanoma-skin-detection/
 
 1. Make sure your virtual environment is activated
 
-2. Start the Flask application:
+2. Start the FastAPI pplication:
 ```bash
-python main.py
+uvicorn main:app --reload
 ```
 
 ## Accessing the Application
